@@ -21,3 +21,5 @@ class car{
         System.out.println("stopped");
     }
 }
+// It can be declare inside a class but outside the class
+// we have to create a instance or object

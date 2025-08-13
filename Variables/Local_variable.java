@@ -12,3 +12,7 @@ class Animal {
         System.out.println("running");
     }
 }
+
+// It can be declare inside a class and inside a method 
+// directly print in method
+//we have to create a instance or object to access the class
