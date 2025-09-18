@@ -3,10 +3,10 @@ package Constructor;
 public class Flipkart {
     public static void main(String[] args) {
 
-        //Create a object
-        Order c1=new Order("Sahil", "9420243539", "Pune", "441904");
+        // Create a object
+        Order c1 = new Order("Sahil", "9420243539", "Pune", "441904");
         c1.deliver();
-		System.out.println(c1.name + " | " + c1.mobile + " | " + c1.city + " | " + c1.pincode + " | " + c1.price);
+        System.out.println(c1.name + " | " + c1.mobile + " | " + c1.city + " | " + c1.pincode + " | " + c1.price);
     }
 }
 
