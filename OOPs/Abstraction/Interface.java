@@ -6,18 +6,18 @@ public class Interface {
     }
 }
 
-interface I_UPI{
+interface I_UPI {
     public String sendmoney_to_account(String account_number, double amount);
 
     public String recievemoney(String number, double amount);
 }
 
-class Phone_pe implements I_UPI{
-    public String sendmoney_to_account(String account_number, double amount){
-        return "Money send to: "+account_number+" Amount : "+amount;
+class Phone_pe implements I_UPI {
+    public String sendmoney_to_account(String account_number, double amount) {
+        return "Money send to: " + account_number + " Amount : " + amount;
     }
 
-    public String recievemoney(String number, double amount){
+    public String recievemoney(String number, double amount) {
         return null;
     }
 }
