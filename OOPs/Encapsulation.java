@@ -1,5 +1,3 @@
-package OOPs;
-
 class BankAccount {
     private double balance;
 

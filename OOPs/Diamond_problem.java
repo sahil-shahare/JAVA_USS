@@ -1,5 +1,3 @@
-package OOPs;
-
 public class Diamond_problem {
     public static void main(String[] args) {
         

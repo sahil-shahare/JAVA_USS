@@ -1,7 +1,4 @@
 //Date 22, 23 Video Lecture
-
-package OOPs;
-
 public class Inheritance {
     public static void main(String[] args) {
         Child c = new Child();
