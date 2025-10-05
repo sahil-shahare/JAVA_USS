@@ -18,6 +18,6 @@ public class Ab1 {
     public static void main(String[] args) {
         Animal obj = new Dog();
         obj.sound(); // Dog barks
-        obj.eat();   // Animals can eat
+        obj.eat(); // Animals can eat
     }
 }
