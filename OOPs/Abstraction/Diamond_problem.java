@@ -1,28 +1,24 @@
 package Abstraction;
-
 public class Diamond_problem {
     public static void main(String[] args) {
-        C c = new C();
-        c.show();
+        
     }
 }
-
-interface A {
-    default void show() {
-        System.out.println("A");
+class Universe{
+    String name;
+    public void display(){
+        System.out.println(this.name);
     }
 }
-
-interface B {
-    default void show() {
-        System.out.println("B");
+class Galaxy{
+    String name;
+    public void display(){
+        System.out.println(this.name);
     }
 }
-
-class C implements A, B {
-    public void show() {
-        System.out.println("C");
-        A.super.show();
-        B.super.show();
-    }
-}
+// class Milky_way extends Universe,Galaxy{
+//     public Milky_way(){
+//         super();
+//         super();
+//     }
+// }

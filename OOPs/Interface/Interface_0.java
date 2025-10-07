@@ -1,6 +1,5 @@
-package Abstraction;
-
-public class Interface {
+package Interface;
+public class Interface_0 {
     public static void main(String[] args) {
         I_UPI ip = new Phone_pe();
 

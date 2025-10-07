@@ -1,4 +1,4 @@
-package Abstraction;
+package Interface;
 
 public class Functional_interface {
 
@@ -9,14 +9,14 @@ public class Functional_interface {
 
         // 2nd way Anonymous Class
         // Calculator c = new Calculator() {
-        // public int add(int a, int b) {
-        // return a + b;
-        // }
+        //     public int add(int a, int b) {
+        //         return a + b;
+        //     }
         // };
         // System.out.println(c.add(10, 20));
 
-        // 3rd way Lambda Expression
-        Calculator c = (a, b) -> a + b;
+        //3rd way Lambda Expression
+        Calculator c = (a,b)->a+b;
         System.out.println(c.add(5, 10));
     }
 }
