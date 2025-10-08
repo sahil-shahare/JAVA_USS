@@ -3,7 +3,7 @@ import java.lang.reflect.Parameter;
 public class Object_Class {
     public static void main(String[] args) {
         Demo d = new Demo();
-        d.id=100;
+        d.id = 100;
         d.diplay();
         System.out.println(d.getClass());
         System.out.println(d.hashCode());
@@ -27,7 +27,7 @@ class Demo {
 
     @Override
     public String toString() {
-        return "ID: "+ id;
+        return "ID: " + id;
     }
 
     public void diplay() {
