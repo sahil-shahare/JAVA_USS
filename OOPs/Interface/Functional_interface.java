@@ -24,10 +24,12 @@ public class Functional_interface {
 @FunctionalInterface
 interface Calculator {
     public int add(int a, int b);
+
 }
 
 // 1st way
 // class Operation implements Calculator {
+//override
 // public int add(int a, int b) {
 // return a + b;
 // }
