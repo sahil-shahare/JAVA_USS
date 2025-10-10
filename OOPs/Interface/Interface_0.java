@@ -9,7 +9,8 @@ public class Interface_0 {
 }
 
 interface I_UPI {
-    double total=0;
+    double total = 0;
+
     public String sendmoney_to_account(String account_number, double amount);
 
     public String recievemoney(String number, double amount);
@@ -17,6 +18,7 @@ interface I_UPI {
 
 class Phone_pe implements I_UPI {
     double total = 0;
+
     @Override
     public String sendmoney_to_account(String account_number, double amount) {
         return "Money send to: " + account_number + " Amount : " + amount;
