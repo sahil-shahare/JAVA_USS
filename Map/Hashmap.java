@@ -4,7 +4,9 @@ import java.util.HashMap;
 
 public class Hashmap {
     public static void main(String[] args) {
+
         HashMap<Integer, String> map = new HashMap<>();
+        
         map.put(1, "Sahil");
         map.put(2, "Carl");
         map.put(3, "Viraj");
