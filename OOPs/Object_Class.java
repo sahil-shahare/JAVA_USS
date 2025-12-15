@@ -15,7 +15,6 @@ class Demo {
 
     // Non-Parameterized Constructor
     public Demo() {
-
     }
 
     // Parameter
