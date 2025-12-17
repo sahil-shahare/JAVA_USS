@@ -1,5 +1,7 @@
+package Inheritance;
+
 //Date 22, 23 Video Lecture
-public class Inheritance {
+public class Inheritance_0 {
     public static void main(String[] args) {
         Child c = new Child();
         c.show();
