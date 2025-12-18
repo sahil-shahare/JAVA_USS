@@ -1,10 +1,11 @@
 package Exception_Handling;
 
 public class invalidDayException extends RuntimeException {
-    public invalidDayException(){
+    public invalidDayException() {
         super("Wrong Day !");
     }
-    public invalidDayException(String string){
+
+    public invalidDayException(String string) {
         super(string);
     }
 
