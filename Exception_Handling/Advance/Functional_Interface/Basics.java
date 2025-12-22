@@ -1,4 +1,4 @@
-package Functional_Interface;
+package Exception_Handling.Advance.Functional_Interface;
 
 import java.util.function.Predicate;
 import java.util.function.Supplier;
@@ -18,13 +18,15 @@ public class Basics {
         Predicate<Integer> p = (i) -> (i == 10);
         System.out.println(p.test(10));
 
-        Function<Integer,String> f = (i)->(i+" A");
+        Function<Integer, String> f = (i) -> (i + " A");
         System.out.println(f.apply(15));
 
-        Consumer<String> c = (i)->{System.out.println(i);};
+        Consumer<String> c = (i) -> {
+            System.out.println(i);
+        };
         c.accept("Hello");
 
-        Supplier<Double> s = ()->(Math.random());
+        Supplier<Double> s = () -> (Math.random());
         System.out.println(s.get());
 
     }
