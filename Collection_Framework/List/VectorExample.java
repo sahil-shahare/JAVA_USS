@@ -8,8 +8,6 @@ public class VectorExample {
         List<String> vec = new Vector<String>();
 
         vec.add("1");
-
         System.out.println(vec);
-        
     }
 }
