@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class custom {
+public class PQcustom {
     public static void main(String[] args) {
         Queue<Car> cars = new PriorityQueue<>(new idComparator());
         cars.add(new Car(1, 89.99));
