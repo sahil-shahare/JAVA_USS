@@ -11,7 +11,7 @@ public class IteratorExample {
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }
-        
+
         Iterator<Integer> itr = list.iterator();
 
         while (itr.hasNext()) {
