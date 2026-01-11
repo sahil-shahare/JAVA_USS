@@ -7,7 +7,8 @@ import java.util.List;
 public class IteratorExample {
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new Arra 
+        List<>();
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }
