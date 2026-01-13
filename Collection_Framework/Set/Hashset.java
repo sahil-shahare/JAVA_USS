@@ -16,6 +16,7 @@ public class Hashset {
         set.add(58);
         set.add(33);
         set.add(88);
+        set.add(65);
 
         System.out.println(set);
 
