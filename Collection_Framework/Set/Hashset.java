@@ -8,7 +8,6 @@ public class Hashset {
         Set<Integer> set = new HashSet<>();
 
         set.add(1);
-        set.add(99);
         set.add(54);
         set.add(1);
         set.add(33);
