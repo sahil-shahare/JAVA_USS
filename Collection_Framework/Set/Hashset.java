@@ -9,7 +9,6 @@ public class Hashset {
 
         set.add(1);
         set.add(99);
-        set.add(54);
         set.add(1);
         set.add(33);
         set.add(58);
