@@ -1,4 +1,4 @@
-package Map;
+package Collection_Framework.Map;
 
 import java.util.HashMap;
 
