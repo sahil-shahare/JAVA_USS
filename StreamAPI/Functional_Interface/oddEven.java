@@ -1,4 +1,4 @@
-package StreamAPI.Predicate;
+package StreamAPI.Functional_Interface;
 
 import java.util.function.Predicate;
 
