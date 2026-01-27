@@ -14,19 +14,19 @@ public class Example1 {
         list.add(85);
         list.add(23);
 
+        
         Consumer<List<Integer>> cons = (i)->{
             for (int j : i) {
                 System.out.println(j);
             }
         };
-
         cons.accept(list);
+
 
         Predicate<List<Integer>> pred = (i)->{
             return list.size()>=5;
         };
-
         System.out.println(pred.test(list));
-        
+       
     }
 }
