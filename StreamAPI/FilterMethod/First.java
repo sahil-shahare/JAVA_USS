@@ -1,4 +1,4 @@
-package StreamAPI;
+package StreamAPI.FilterMethod;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,17 +13,15 @@ public class First {
         list.add(654);
         list.add(987);
 
-        
         /**
          * forEach(Consumer) => terminal
          */
         // list.stream().forEach((i)->System.out.println(i));
-        
+
         /**
-         * filter(Predicate) => intermediater  
+         * filter(Predicate) => intermediater
          */
         // list.stream().filter((i)->(i>400)).forEach((i)->{System.out.println(i);});
 
-        
     }
 }

@@ -1,4 +1,4 @@
-package StreamAPI;
+package StreamAPI.FilterMethod;
 
 import java.util.List;
 import java.util.Stack;
@@ -14,6 +14,8 @@ public class Second {
         list.add("Rampur");
         list.add("Ranapur");
 
-        list.stream().filter((i)->(i.startsWith("Ra"))).forEach((i)->{System.out.println(i.toUpperCase());});
+        list.stream().filter((i) -> (i.startsWith("Ra"))).forEach((i) -> {
+            System.out.println(i.toUpperCase());
+        });
     }
 }
