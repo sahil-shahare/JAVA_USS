@@ -1,11 +1,11 @@
-package Method_Reference;
+package Method_Reference.Instance_MR;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-public class Instance_MR {
+public class InstanceMR {
     public static void main(String[] args) {
         String str = "Carl";
 

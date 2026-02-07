@@ -1,4 +1,4 @@
-package Method_Reference;
+package Method_Reference.Arbitary_MR;
 
 import java.util.Arrays;
 import java.util.List;

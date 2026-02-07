@@ -1,4 +1,4 @@
-package Method_Reference;
+package Method_Reference.Arbitary_MR;
 
 import java.util.Arrays;
 import java.util.List;
@@ -39,7 +39,4 @@ class Student {
         return "Student [m1=" + m1 + ", m2=" + m2 + ", m3=" + m3 + "]";
     }
 
-}
-
-class Average {
 }
