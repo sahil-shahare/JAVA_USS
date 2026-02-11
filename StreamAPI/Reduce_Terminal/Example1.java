@@ -24,7 +24,6 @@ public class Example1 {
                 .peek(System.out::println).map(String::length)
                 .forEach(System.out::println);
 
-       
         BinaryOperator<Integer> max = BinaryOperator.maxBy(Integer::compareTo);
         BinaryOperator<Integer> min = BinaryOperator.minBy(Integer::compareTo);
         System.out.println(max);
