@@ -19,11 +19,7 @@ public class Second {
         // String value = opt.orElseThrow();
         opt.orElseThrow(() -> new RuntimeException("Value not found"));
 
-
         System.out.println(value);
-        
-
-
 
     }
 }
