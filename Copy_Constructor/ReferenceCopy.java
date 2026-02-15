@@ -22,9 +22,9 @@ class Student {
         this.id = id;
         this.name = name;
     }
-    
-    public Student(Student s){
-        this.id=s.id;
-        this.name=s.name;
+
+    public Student(Student s) {
+        this.id = s.id;
+        this.name = s.name;
     }
 }
