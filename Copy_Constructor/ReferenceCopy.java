@@ -5,7 +5,7 @@ public class ReferenceCopy {
     public static void main(String[] args) {
 
         Student s1 = new Student(1, "Carl");
-        Student s2 = s1;
+        Student s2 = new Student(s1);
 
         System.out.println(s1);
         System.out.println(s2);
