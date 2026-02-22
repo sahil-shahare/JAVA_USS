@@ -6,18 +6,18 @@ public class Instance_variable {
         c.driving();
         c.stop();
         System.out.println(c.price);
-        
+
     }
 }
 
-class car{
+class car {
     double price = 32165.32;
 
-    public void driving(){
+    public void driving() {
         System.out.println("running...");
     }
 
-    public void stop(){
+    public void stop() {
         System.out.println("stopped");
     }
 }
