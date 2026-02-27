@@ -21,8 +21,8 @@ class EvenOdd extends Thread {
     }
 }
 
-class PrimeNumber extends Thread{
-    public void run(){
-        
+class PrimeNumber extends Thread {
+    public void run() {
+
     }
 }
