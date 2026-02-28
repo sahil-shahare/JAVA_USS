@@ -11,7 +11,7 @@ public class First {
 
         int j = 100;
         if (j == 100) {
-        throw new Exception("MultiThread Learning");
+            throw new Exception("MultiThread Learning");
         }
 
     }
