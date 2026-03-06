@@ -11,6 +11,7 @@ public class Square_arbitary {
 
         List<String> list = Arrays.asList("asdw", "as", "dggsdg", "htt");
         list.stream().map(String::length).map(sq::square).forEach(System.out::println);
+        
     }
 }
 
