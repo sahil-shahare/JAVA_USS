@@ -10,6 +10,7 @@ public class Custom_arbitary {
         List<Book> list = Arrays.asList(new Book(1, 78.2, "Carl"), new Book(2, 98.2, "Johnson"),
                 new Book(3, 65.4, "Carry"), new Book(4, 65.6, "David"));
 
+                
         list.stream().map(Book::gettotal).forEach(System.out::println);
     }
 }
