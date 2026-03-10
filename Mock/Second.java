@@ -9,7 +9,7 @@ public class Second {
         List<Integer> list2 = Arrays.asList(50, 60, 70, 80);
         List<List<Integer>> list3 = Arrays.asList(list, list2);
 
-        // System.out.println( list3.stream().flatMap((i)->(i.stream())).reduce(0,
+        // System.out.println( list3.stream().flatMap((i)->(i.stream())).reduce(0,Integer::sum);
         // Integer::sum));
 
         List<Integer> list4 = Arrays.asList(90, 100, 110, 120);
