@@ -18,7 +18,8 @@ public class Second {
         System.out.println(list5);
         System.out.println(
                 list5.stream().flatMap(List::stream).flatMap(List::stream).reduce(0, Integer::sum));
-        // list5.stream().flatMap((i) -> (i.stream())).flatMap((i) -> (i.stream())).forEach(System.out::println);
+        // list5.stream().flatMap((i) -> (i.stream())).flatMap((i) ->
+        // (i.stream())).forEach(System.out::println);
 
     }
 }
