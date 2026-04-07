@@ -1,4 +1,4 @@
-package Constructor.Shallow_Constructor;
+package Shallow_Constructor;
 
 public class Example {
     public static void main(String[] args) {

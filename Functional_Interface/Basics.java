@@ -1,4 +1,4 @@
-package Exception_Handling.Advance.Functional_Interface;
+package Functional_Interface;
 
 import java.util.function.Predicate;
 import java.util.function.Supplier;

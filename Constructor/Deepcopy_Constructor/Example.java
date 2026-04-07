@@ -1,4 +1,4 @@
-package Constructor.Deepcopy_Constructor;
+package Deepcopy_Constructor;
 
 public class Example {
     public static void main(String[] args) {
