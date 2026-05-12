@@ -11,7 +11,7 @@ public class DaemonOne {
         daemon.setDaemon(true);
 
         Thread user = new Thread(()->{
-            for(int i=1;i<=5;i++){
+            for(int i=1;i<=6;i++){
                 System.out.println("User thread: "+i);
             }
         });
